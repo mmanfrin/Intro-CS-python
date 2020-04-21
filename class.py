@@ -23,5 +23,4 @@ class IntSet(object):
         result = ''
         for e in self.vals:
             result = result + str(e) + ','
-        return '{' + result[:-1] + '}' # -1 omits the trailling comma
-    
+        return '{' + result[:-1] + '}'  # -1 omits the trailing comma
